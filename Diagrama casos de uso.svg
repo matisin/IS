@@ -1,0 +1,220 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!DOCTYPE svg PUBLIC "-//W3C//DTD SVG 1.0//EN" "http://www.w3.org/TR/2001/PR-SVG-20010719/DTD/svg10.dtd">
+<svg width="47cm" height="40cm" viewBox="128 -61 924 782" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+  <g>
+    <ellipse style="fill: #ffffff" cx="165.254" cy="148.334" rx="6" ry="6"/>
+    <ellipse style="fill: none; fill-opacity:0; stroke-width: 2; stroke: #000000" cx="165.254" cy="148.334" rx="6" ry="6"/>
+    <line style="fill: none; fill-opacity:0; stroke-width: 2; stroke: #000000" x1="141.254" y1="160.334" x2="189.254" y2="160.334"/>
+    <line style="fill: none; fill-opacity:0; stroke-width: 2; stroke: #000000" x1="165.254" y1="154.334" x2="165.254" y2="184.334"/>
+    <line style="fill: none; fill-opacity:0; stroke-width: 2; stroke: #000000" x1="165.254" y1="184.334" x2="141.254" y2="210.334"/>
+    <line style="fill: none; fill-opacity:0; stroke-width: 2; stroke: #000000" x1="165.254" y1="184.334" x2="189.254" y2="210.334"/>
+    <text font-size="12.7998" style="fill: #000000;text-anchor:middle;font-family:sans-serif;font-style:normal;font-weight:normal" x="165.254" y="234.234">
+      <tspan x="165.254" y="234.234">Empresario</tspan>
+    </text>
+  </g>
+  <g>
+    <ellipse style="fill: #ffffff" cx="165.419" cy="364.056" rx="6" ry="6"/>
+    <ellipse style="fill: none; fill-opacity:0; stroke-width: 2; stroke: #000000" cx="165.419" cy="364.056" rx="6" ry="6"/>
+    <line style="fill: none; fill-opacity:0; stroke-width: 2; stroke: #000000" x1="141.419" y1="376.056" x2="189.419" y2="376.056"/>
+    <line style="fill: none; fill-opacity:0; stroke-width: 2; stroke: #000000" x1="165.419" y1="370.056" x2="165.419" y2="400.056"/>
+    <line style="fill: none; fill-opacity:0; stroke-width: 2; stroke: #000000" x1="165.419" y1="400.056" x2="141.419" y2="426.056"/>
+    <line style="fill: none; fill-opacity:0; stroke-width: 2; stroke: #000000" x1="165.419" y1="400.056" x2="189.419" y2="426.056"/>
+    <text font-size="12.7998" style="fill: #000000;text-anchor:middle;font-family:sans-serif;font-style:normal;font-weight:normal" x="165.419" y="449.956">
+      <tspan x="165.419" y="449.956">Turista</tspan>
+    </text>
+  </g>
+  <g>
+    <ellipse style="fill: #ffffff" cx="1013.16" cy="81.7485" rx="6" ry="6"/>
+    <ellipse style="fill: none; fill-opacity:0; stroke-width: 2; stroke: #000000" cx="1013.16" cy="81.7485" rx="6" ry="6"/>
+    <line style="fill: none; fill-opacity:0; stroke-width: 2; stroke: #000000" x1="989.158" y1="93.7485" x2="1037.16" y2="93.7485"/>
+    <line style="fill: none; fill-opacity:0; stroke-width: 2; stroke: #000000" x1="1013.16" y1="87.7485" x2="1013.16" y2="117.748"/>
+    <line style="fill: none; fill-opacity:0; stroke-width: 2; stroke: #000000" x1="1013.16" y1="117.748" x2="989.158" y2="143.748"/>
+    <line style="fill: none; fill-opacity:0; stroke-width: 2; stroke: #000000" x1="1013.16" y1="117.748" x2="1037.16" y2="143.748"/>
+    <text font-size="12.7998" style="fill: #000000;text-anchor:middle;font-family:sans-serif;font-style:normal;font-weight:normal" x="1013.16" y="167.648">
+      <tspan x="1013.16" y="167.648">Sernatur</tspan>
+    </text>
+  </g>
+  <g>
+    <ellipse style="fill: #ffffff" cx="1011.24" cy="251.242" rx="6" ry="6"/>
+    <ellipse style="fill: none; fill-opacity:0; stroke-width: 2; stroke: #000000" cx="1011.24" cy="251.242" rx="6" ry="6"/>
+    <line style="fill: none; fill-opacity:0; stroke-width: 2; stroke: #000000" x1="987.237" y1="263.242" x2="1035.24" y2="263.242"/>
+    <line style="fill: none; fill-opacity:0; stroke-width: 2; stroke: #000000" x1="1011.24" y1="257.242" x2="1011.24" y2="287.242"/>
+    <line style="fill: none; fill-opacity:0; stroke-width: 2; stroke: #000000" x1="1011.24" y1="287.242" x2="987.237" y2="313.242"/>
+    <line style="fill: none; fill-opacity:0; stroke-width: 2; stroke: #000000" x1="1011.24" y1="287.242" x2="1035.24" y2="313.242"/>
+    <text font-size="12.7998" style="fill: #000000;text-anchor:middle;font-family:sans-serif;font-style:normal;font-weight:normal" x="1011.24" y="337.142">
+      <tspan x="1011.24" y="337.142">Google Maps</tspan>
+    </text>
+  </g>
+  <g>
+    <ellipse style="fill: #ffffff" cx="460.873" cy="-5.86015" rx="95.825" ry="31.9417"/>
+    <ellipse style="fill: none; fill-opacity:0; stroke-width: 2; stroke: #000000" cx="460.873" cy="-5.86015" rx="95.825" ry="31.9417"/>
+    <text font-size="12.7998" style="fill: #000000;text-anchor:middle;font-family:sans-serif;font-style:normal;font-weight:normal" x="460.873" y="-1.96015">
+      <tspan x="460.873" y="-1.96015">Actualizar Información</tspan>
+    </text>
+  </g>
+  <g>
+    <ellipse style="fill: #ffffff" cx="769.595" cy="-5.68912" rx="87.575" ry="29.1917"/>
+    <ellipse style="fill: none; fill-opacity:0; stroke-width: 2; stroke: #000000" cx="769.595" cy="-5.68912" rx="87.575" ry="29.1917"/>
+    <text font-size="12.7998" style="fill: #000000;text-anchor:middle;font-family:sans-serif;font-style:normal;font-weight:normal" x="769.595" y="-1.78912">
+      <tspan x="769.595" y="-1.78912">Extraer Información</tspan>
+    </text>
+  </g>
+  <g>
+    <ellipse style="fill: #ffffff" cx="465.197" cy="676.373" rx="72.525" ry="24.175"/>
+    <ellipse style="fill: none; fill-opacity:0; stroke-width: 2; stroke: #000000" cx="465.197" cy="676.373" rx="72.525" ry="24.175"/>
+    <text font-size="12.7998" style="fill: #000000;text-anchor:middle;font-family:sans-serif;font-style:normal;font-weight:normal" x="465.197" y="680.273">
+      <tspan x="465.197" y="680.273">Crear Itinerario</tspan>
+    </text>
+  </g>
+  <g>
+    <ellipse style="fill: #ffffff" cx="456.076" cy="470.921" rx="76.925" ry="25.6417"/>
+    <ellipse style="fill: none; fill-opacity:0; stroke-width: 2; stroke: #000000" cx="456.076" cy="470.921" rx="76.925" ry="25.6417"/>
+    <text font-size="12.7998" style="fill: #000000;text-anchor:middle;font-family:sans-serif;font-style:normal;font-weight:normal" x="456.076" y="474.821">
+      <tspan x="456.076" y="474.821">Buscar Itinerario</tspan>
+    </text>
+  </g>
+  <g>
+    <ellipse style="fill: #ffffff" cx="738.11" cy="528.303" rx="85.825" ry="28.6083"/>
+    <ellipse style="fill: none; fill-opacity:0; stroke-width: 2; stroke: #000000" cx="738.11" cy="528.303" rx="85.825" ry="28.6083"/>
+    <text font-size="12.7998" style="fill: #000000;text-anchor:middle;font-family:sans-serif;font-style:normal;font-weight:normal" x="738.11" y="532.203">
+      <tspan x="738.11" y="532.203">Visualizar Itinerario</tspan>
+    </text>
+  </g>
+  <g>
+    <ellipse style="fill: #ffffff" cx="498.585" cy="583.869" rx="87.225" ry="29.075"/>
+    <ellipse style="fill: none; fill-opacity:0; stroke-width: 2; stroke: #000000" cx="498.585" cy="583.869" rx="87.225" ry="29.075"/>
+    <text font-size="12.7998" style="fill: #000000;text-anchor:middle;font-family:sans-serif;font-style:normal;font-weight:normal" x="498.585" y="587.769">
+      <tspan x="498.585" y="587.769">Compartir Itinerario</tspan>
+    </text>
+  </g>
+  <g>
+    <ellipse style="fill: #ffffff" cx="432.015" cy="78.2101" rx="84.6" ry="28.2"/>
+    <ellipse style="fill: none; fill-opacity:0; stroke-width: 2; stroke: #000000" cx="432.015" cy="78.2101" rx="84.6" ry="28.2"/>
+    <text font-size="12.7998" style="fill: #000000;text-anchor:middle;font-family:sans-serif;font-style:normal;font-weight:normal" x="432.015" y="82.1101">
+      <tspan x="432.015" y="82.1101">Ver Mapa Temático</tspan>
+    </text>
+  </g>
+  <g>
+    <ellipse style="fill: #ffffff" cx="456.034" cy="216.38" rx="105.125" ry="35.0417"/>
+    <ellipse style="fill: none; fill-opacity:0; stroke-width: 2; stroke: #000000" cx="456.034" cy="216.38" rx="105.125" ry="35.0417"/>
+    <text font-size="12.7998" style="fill: #000000;text-anchor:middle;font-family:sans-serif;font-style:normal;font-weight:normal" x="456.034" y="212.28">
+      <tspan x="456.034" y="212.28">Buscar Lugares o </tspan>
+      <tspan x="456.034" y="228.28">Servicios</tspan>
+    </text>
+  </g>
+  <g>
+    <ellipse style="fill: #ffffff" cx="796.554" cy="314.913" rx="75.625" ry="25.2083"/>
+    <ellipse style="fill: none; fill-opacity:0; stroke-width: 2; stroke: #000000" cx="796.554" cy="314.913" rx="75.625" ry="25.2083"/>
+    <text font-size="12.7998" style="fill: #000000;text-anchor:middle;font-family:sans-serif;font-style:normal;font-weight:normal" x="796.554" y="318.813">
+      <tspan x="796.554" y="318.813">Evaluar Servicio</tspan>
+    </text>
+  </g>
+  <g>
+    <ellipse style="fill: #ffffff" cx="758.658" cy="96.4601" rx="112.575" ry="37.525"/>
+    <ellipse style="fill: none; fill-opacity:0; stroke-width: 2; stroke: #000000" cx="758.658" cy="96.4601" rx="112.575" ry="37.525"/>
+    <text font-size="12.7998" style="fill: #000000;text-anchor:middle;font-family:sans-serif;font-style:normal;font-weight:normal" x="758.658" y="92.3601">
+      <tspan x="758.658" y="92.3601">Proveer Información</tspan>
+      <tspan x="758.658" y="108.36">Geográfica</tspan>
+    </text>
+  </g>
+  <g>
+    <ellipse style="fill: #ffffff" cx="696.026" cy="194.655" rx="66.75" ry="22.25"/>
+    <ellipse style="fill: none; fill-opacity:0; stroke-width: 2; stroke: #000000" cx="696.026" cy="194.655" rx="66.75" ry="22.25"/>
+    <text font-size="12.7998" style="fill: #000000;text-anchor:middle;font-family:sans-serif;font-style:normal;font-weight:normal" x="696.026" y="198.555">
+      <tspan x="696.026" y="198.555">Generar Ruta</tspan>
+    </text>
+  </g>
+  <g>
+    <ellipse style="fill: #ffffff" cx="473.073" cy="349.735" rx="118.725" ry="39.575"/>
+    <ellipse style="fill: none; fill-opacity:0; stroke-width: 2; stroke: #000000" cx="473.073" cy="349.735" rx="118.725" ry="39.575"/>
+    <text font-size="12.7998" style="fill: #000000;text-anchor:middle;font-family:sans-serif;font-style:normal;font-weight:normal" x="473.073" y="345.635">
+      <tspan x="473.073" y="345.635">Visualizar información</tspan>
+      <tspan x="473.073" y="361.635">de Lugar</tspan>
+    </text>
+  </g>
+  <g>
+    <ellipse style="fill: #ffffff" cx="790.246" cy="380.565" rx="81.85" ry="27.2833"/>
+    <ellipse style="fill: none; fill-opacity:0; stroke-width: 2; stroke: #000000" cx="790.246" cy="380.565" rx="81.85" ry="27.2833"/>
+    <text font-size="12.7998" style="fill: #000000;text-anchor:middle;font-family:sans-serif;font-style:normal;font-weight:normal" x="790.246" y="384.465">
+      <tspan x="790.246" y="384.465">Añadir a Itinerario</tspan>
+    </text>
+  </g>
+  <g>
+    <path style="fill: none; fill-opacity:0; stroke-width: 2; stroke-dasharray: 6; stroke: #000000" d="M 543.796,613.934 A 145.924,145.924 0 0 0 721.21,561.631"/>
+    <polyline style="fill: none; fill-opacity:0; stroke-width: 2; stroke: #000000" points="721.314,570.904 722.468,559.783 712.879,565.532 "/>
+  </g>
+  <path style="fill: none; fill-opacity:0; stroke-width: 2; stroke: #000000" d="M 191.405,436.128 A 398.134,398.134 0 0 0 410.364,573.434"/>
+  <path style="fill: none; fill-opacity:0; stroke-width: 2; stroke: #000000" d="M 174.779,455.061 A 298.713,298.713 0 0 0 391.669,667.666"/>
+  <path style="fill: none; fill-opacity:0; stroke-width: 2; stroke: #000000" d="M 191.418,410.408 A 974.305,974.305 0 0 0 378.159,461.106"/>
+  <g>
+    <line style="fill: none; fill-opacity:0; stroke-width: 2; stroke: #000000" x1="165.296" y1="239.331" x2="165.368" y2="332.823"/>
+    <polygon style="fill: #ffffff" points="160.368,332.827 165.375,342.823 170.368,332.819 "/>
+    <polygon style="fill: none; fill-opacity:0; stroke-width: 2; stroke: #000000" points="160.368,332.827 165.375,342.823 170.368,332.819 "/>
+  </g>
+  <path style="fill: none; fill-opacity:0; stroke-width: 2; stroke: #000000" d="M 364.054,12.3438 A 349.24,349.24 0 0 0 200.123,129.34"/>
+  <path style="fill: none; fill-opacity:0; stroke-width: 2; stroke: #000000" d="M 376.148,107.41 A 465.901,465.901 0 0 0 181.73,345.054"/>
+  <path style="fill: none; fill-opacity:0; stroke-width: 2; stroke: #000000" d="M 380.213,252.417 A 1089.02,1089.02 0 0 0 191.424,377.864"/>
+  <path style="fill: none; fill-opacity:0; stroke-width: 2; stroke: #000000" d="M 191.417,397.324 A 2488.87,2488.87 0 0 0 353.349,374.036"/>
+  <g>
+    <path style="fill: none; fill-opacity:0; stroke-width: 2; stroke-dasharray: 6; stroke: #000000" d="M 669.217,498.703 A 527.723,527.723 0 0 0 538.181,471.118"/>
+    <polyline style="fill: none; fill-opacity:0; stroke-width: 2; stroke: #000000" points="546.285,466.669 535.952,470.939 545.567,476.643 "/>
+  </g>
+  <g>
+    <path style="fill: none; fill-opacity:0; stroke-width: 2; stroke-dasharray: 6; stroke: #000000" d="M 538.026,392.226 A 272.128,272.128 0 0 0 721.914,408.839"/>
+    <polyline style="fill: none; fill-opacity:0; stroke-width: 2; stroke: #000000" points="547.18,391.159 536,391.282 542.806,400.152 "/>
+  </g>
+  <g>
+    <path style="fill: none; fill-opacity:0; stroke-width: 2; stroke-dasharray: 6; stroke: #000000" d="M 719.933,308.757 A 671.578,671.578 0 0 0 597.205,317.216"/>
+    <polyline style="fill: none; fill-opacity:0; stroke-width: 2; stroke: #000000" points="604.026,310.979 594.997,317.573 605.69,320.84 "/>
+  </g>
+  <g>
+    <path style="fill: none; fill-opacity:0; stroke-width: 2; stroke-dasharray: 6; stroke: #000000" d="M 645.364,171.401 A 195.617,195.617 0 0 0 514.372,178.558"/>
+    <polyline style="fill: none; fill-opacity:0; stroke-width: 2; stroke: #000000" points="519.407,170.783 512.31,179.422 523.479,179.916 "/>
+  </g>
+  <g>
+    <path style="fill: none; fill-opacity:0; stroke-width: 2; stroke-dasharray: 6; stroke: #000000" d="M 709.073,217.424 A 73.7967,73.7967 0 0 0 832.543,138.966"/>
+    <polyline style="fill: none; fill-opacity:0; stroke-width: 2; stroke: #000000" points="840.748,143.378 831.607,136.94 831.941,148.116 "/>
+  </g>
+  <g>
+    <path style="fill: none; fill-opacity:0; stroke-width: 2; stroke-dasharray: 6; stroke: #000000" d="M 517.476,98.6161 A 678.929,678.929 0 0 0 640.618,108.308"/>
+    <polyline style="fill: none; fill-opacity:0; stroke-width: 2; stroke: #000000" points="632.952,113.47 642.854,108.28 632.76,103.472 "/>
+  </g>
+  <g>
+    <path style="fill: none; fill-opacity:0; stroke-width: 2; stroke-dasharray: 6; stroke: #000000" d="M 423.957,107.384 A 132.923,132.923 0 0 0 431.426,176.215"/>
+    <polyline style="fill: none; fill-opacity:0; stroke-width: 2; stroke: #000000" points="423.701,171.078 432.238,178.297 432.891,167.136 "/>
+  </g>
+  <g>
+    <path style="fill: none; fill-opacity:0; stroke-width: 2; stroke-dasharray: 6; stroke: #000000" d="M 484.688,309.166 A 122.962,122.962 0 0 0 478.853,256.565"/>
+    <polyline style="fill: none; fill-opacity:0; stroke-width: 2; stroke: #000000" points="486.365,262.016 478.134,254.45 477.019,265.574 "/>
+  </g>
+  <path style="fill: none; fill-opacity:0; stroke-width: 2; stroke: #000000" d="M 985.492,93.4212 A 475.998,475.998 0 0 0 858.168,19.3001"/>
+  <path style="fill: none; fill-opacity:0; stroke-width: 2; stroke: #000000" d="M 969.757,240.123 A 636.213,636.213 0 0 0 835.766,134.98"/>
+  <text font-size="12.7998" style="fill: #000000;text-anchor:start;font-family:sans-serif;font-style:normal;font-weight:normal" x="540.112" y="96.0166">
+    <tspan x="540.112" y="96.0166">&lt;&lt;include&gt;&gt;</tspan>
+  </text>
+  <text font-size="12.7998" style="fill: #000000;text-anchor:start;font-family:sans-serif;font-style:normal;font-weight:normal" x="727.73" y="260.322">
+    <tspan x="727.73" y="260.322">&lt;&lt;include&gt;&gt;</tspan>
+  </text>
+  <text font-size="12.7998" style="fill: #000000;text-anchor:start;font-family:sans-serif;font-style:normal;font-weight:normal" x="552.033" y="155.622">
+    <tspan x="552.033" y="155.622">&lt;&lt;extend&gt;&gt;</tspan>
+  </text>
+  <text font-size="12.7998" style="fill: #000000;text-anchor:start;font-family:sans-serif;font-style:normal;font-weight:normal" x="615.856" y="307.089">
+    <tspan x="615.856" y="307.089">&lt;&lt;extend&gt;&gt;</tspan>
+  </text>
+  <text font-size="12.7998" style="fill: #000000;text-anchor:start;font-family:sans-serif;font-style:normal;font-weight:normal" x="596.966" y="410.548">
+    <tspan x="596.966" y="410.548">&lt;&lt;extend&gt;&gt;</tspan>
+  </text>
+  <text font-size="12.7998" style="fill: #000000;text-anchor:start;font-family:sans-serif;font-style:normal;font-weight:normal" x="572.023" y="643.079">
+    <tspan x="572.023" y="643.079">&lt;&lt;extend&gt;&gt;</tspan>
+  </text>
+  <text font-size="12.7998" style="fill: #000000;text-anchor:start;font-family:sans-serif;font-style:normal;font-weight:normal" x="571.657" y="472.7">
+    <tspan x="571.657" y="472.7">&lt;&lt;extend&gt;&gt;</tspan>
+  </text>
+  <text font-size="12.7998" style="fill: #000000;text-anchor:start;font-family:sans-serif;font-style:normal;font-weight:normal" x="487.843" y="289.483">
+    <tspan x="487.843" y="289.483">&lt;&lt;extend&gt;&gt;</tspan>
+  </text>
+  <text font-size="12.7998" style="fill: #000000;text-anchor:start;font-family:sans-serif;font-style:normal;font-weight:normal" x="426.037" y="146.614">
+    <tspan x="426.037" y="146.614">&lt;&lt;extend&gt;&gt;</tspan>
+  </text>
+  <rect style="fill: none; fill-opacity:0; stroke-width: 2; stroke: #000000" x="307.272" y="-59.7489" width="613.767" height="779.23"/>
+</svg>
