@@ -126,10 +126,12 @@ Previo a definir los distintos casos de uso, es necesario definir algunos concep
 Maps: Quiere recibir peticiones de PoI para mostrar en mapa de forma correcta.\\\\\underline{Precondiciones:} El sistema asigna a cada servicio un símbolo PoI.
 Maps se encuentra conectado al sistema principal.\\\\\underline{Postcondiciones}: El turista visualiza un mapa ( geográfico) con marcas dónde aparecen el o los servicios que fueron seleccionados.\\\\\underline{Escenario principal de éxito:}
 \begin{enumerate}
-\item Se envía petición a Maps para proveer el mapa geográfico de la provincia de Arauco.
+\item Sistema envía solicitud a Map junto a el o los parámetros (provincia, comuna) para recibir información geográfica correspondiente.
+\item Se ejecuta caso de uso UC2.
 \item El turista visualiza el mapa geográfico de la provincia de Arauco.
 \item El turista selecciona el o los servicios que desea visualizar en el mapa temático.
-\item Se envía la petición a Maps para que provea el o los servicios (PoI) ubicados geográficamente.
+\item Sistema envía solicitud a Map junto a el o los parámetros (tipos de servicio o lugar) para recibir información geográfica correspondiente
+\item Se ejecuta caso de uso UC2.
 \item Los servicios aparecen en el mapa geográfico según la símbolos PoI predefinidos.
 \end{enumerate}
 \underline{Extensiones:}
@@ -138,7 +140,7 @@ Maps se encuentra conectado al sistema principal.\\\\\underline{Postcondiciones}
 \item [4’] Falla la conexión con Maps , se muestra una alerta  y vuelve al paso 1.
 \end{enumerate}
 %caso de uso proveer informacion geografica
-\underline{Caso de Uso:} \textbf{Proveer Información Geográfica} \\\\\underline{Actor Principal}: Maps\\\\\underline{Personal involucrado e intereses}\\Maps: Quiere recibir peticiones de información geográfica para enviar.\\\\\underline{Precondiciones:} Maps se encuentra conectado al sistema principal.\\\\\underline{Postcondiciones}: Maps entrega la información geográfica (mapa o POI).\\\\\underline{Escenario principal de éxito:}
+\underline{Caso de Uso:} \textbf{Proveer Información Geográfica} \\\\\underline{Actor Principal}: Maps\\\\\underline{Personal involucrado e intereses}\\Maps: Quiere recibir peticiones de información geográfica para enviar.\\\\\underline{Precondiciones:} Maps se encuentra conectado al sistema.\\El sistema tiene alguna petición para ser procesada puede ser de un mapa o un PoI.  principal.\\\\\underline{Postcondiciones}: Maps entrega la información geográfica (mapa o POI).\\\\\underline{Escenario principal de éxito:}
 \begin{enumerate}
 \item Maps recibe petición para mostrar un mapa geográfico o puntos de interés.
 \item Maps entrega mapa geográfico o puntos de interés.
@@ -160,8 +162,8 @@ Maps se encuentra conectado al sistema principal.\\\\\underline{Postcondiciones}
 \underline{Postcondiciones}: Se entrega un mapa junto a las indicaciones para llegar al lugar deseado.\\\\
 \underline{Escenario principal de éxito}:
 \begin{enumerate}
-\item Se envía la información a Maps del punto de inicio y el punto final y el medio de transporte a utilizar.
-\item Maps entrega mapa geográfico con una ruta ( trazo de carretera o camino) marcado identificando variantes del camino optimo según el medio de transporte.
+\item Sistema envía solicitud a Map junto a los parámetros (punto inicio y llegada, medio de transporte) para recibir la ruta adecuada.
+\item Maps entrega mapa geográfico con una ruta ( trazo de carretera o camino) marcado identificando variantes del camino óptimo según el medio de transporte.
 \end{enumerate}
 \underline{Extensiones}:
 \begin{enumerate}
@@ -318,16 +320,6 @@ Sistema: Quiere recibir información para agregar en la base de datos.\\\\
 \item[2'b] Si falla la conexión al recuperar la información del lugar, se despliega un mensaje de error.
 \end{enumerate}
 %CASO DE USO ENTREGAR INFORMACION
-\underline{Caso de uso}: \textbf{Entregar Información.}\\\\
-\underline{Actor Principal}: SERNATUR.\\\\
-\underline{Personal involucrado e intereses}: Sistema: El sistema quiere recibir información de un planilla excel con los datos de los empresarios.\\
-SERNATUR: Quiere entregar la información pública que se encuentra en su base de datos.\\\\
-\underline{Postcondiciones}: La base de datos del Sistema queda poblada por los datos entregados desde SERNATUR.
-\underline{Escenario principal de éxito}:
-\begin{enumerate}
-\item Sistema solicita información.
-\item SERNATUR entrega la información de la planilla.
-\end{enumerate}
 %%%%%%%%%%%%%%%DIAGRAMA UML%%%%%%%%%%%%%%%%%%%%%%%%%%%
 \subsubsection{Diagrama de Clases UML}
 Previo a la implementación es necesario modelar cuales serán los elementos presentes en la base de datos utilizada por el sistema. Basándonos en los casos de uso de la sección anterior, se presenta a continuación el diagrama de clases de la base de datos.\\
