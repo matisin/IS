@@ -1,0 +1,304 @@
+\documentclass[11pt]{article}
+%Gummi|065|=)
+\usepackage[utf8]{inputenc}
+\begin{document}
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+%							CASOS DE USO							%
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+\section*{Casos de uso}
+Para esta iteración, para cumplir los requerimientos acordados en un principio, se modificaron e implementaron los siguientes casos de uso:
+
+\subsection*{\textbf{CASO DE USO UC1:} Ver mapa temático }
+\textbf{Actor principal:} Usuario\\
+\\
+\textbf{Personal involucrado e intereses: }\\
+\underline{Usuario:} Quiere visualizar un mapa de sucursales que tengan ciertos servicios.\\\underline{Google Maps:} Quiere recibir peticiones de PoI para mostrar en mapa de forma correcta.\\
+\\
+\textbf{Precondiciones:} El usuario apretó el botón de mapa temático\\
+\\
+\textbf{Postcondiciones:} El usuario visualiza un mapa (geográfico) con marcas donde se encuentran las sucursales que contienen los servicios que está buscando.\\
+\\
+\textbf{Escenario principal de éxito:}
+\begin{enumerate}
+\item Se envía una petición a Google Maps para proveer el mapa de la provincia de Arauco.
+\item El usuario visualiza el mapa
+\item El sistema invoca al caso de uso \textbf{Busar Servicios (UC2)}, lo que permite obtener una lista con sucursales filtrada.
+\item Se envía una petición a Google Maps para que ubique las sucursales listadas en el mapa.
+\item Las sucursales aparecen en el mapa.
+\end{enumerate}
+\textbf{Excepciones:}
+\begin{enumerate}
+\item[1-4'] Falla conexión con Google Maps, se muestra un mensaje de error.
+\item[1-5'] El turista apreta cancelar.
+\end{enumerate}
+\subsection*{\textbf{CASO DE USO UC2:} Buscar sucursales }
+\textbf{Actor principal:} Usuario\\
+\\
+\textbf{Personal involucrado e intereses: }\\\underline{Usuario:} Quiere encontrar sucursales que contenga servicios que busca.\\
+\\
+\textbf{Precondiciones:} El usuario necesita una lista filtrada de sucursales.\\
+\\
+\textbf{Postcondiciones:} EL usuario obtiene una lista de sucursales.\\
+\\
+\textbf{Escenario principal de éxito:}
+\begin{enumerate}
+\item El usuario apreta el botón de busqueda de servicios.
+\item El usuario ingresa un valor en el campo de búsqueda.
+\item El sistema busca sucursals con tipos de servicios acorde al campo de búsqueda ingresa.
+\item Se muestra al usuario una lista con sucursales.
+\end{enumerate}
+\textbf{Excepciones:}
+\begin{enumerate}
+\item[2'a] El usuario cancela la operación.
+\item[2'b] El usuario puede apretar el botón de busqueda con criterios específicos. El sistema invoca al caso de uso \textbf{Buscar por criterios específicos (UC3)}.
+\item[4'] Lista vacía, se informa que no se encontró lo que el usuario buscaba.
+\end{enumerate}
+\subsection*{\textbf{CASO DE USO UC3:} Buscar por criterios específicos }
+\textbf{Actor principal:} Usuario\\
+\\
+\textbf{Personal involucrado e intereses: }\\\underline{Usuario:} Quiere extender su busqueda de iteraciones o sucursales con mayor criterio de busqueda.
+\\\\
+\textbf{Precondiciones:}El usuario estaba buscando sucursales o itinerarios en el sistema, se informa que tipo de busqueda es.\\ 
+\\
+\textbf{Postcondiciones:} El usuario obtiene una lista con sucursales o itinerarios que cumplen con los criterios específicos.\\
+\\
+\textbf{Escenario principal de éxito:}
+\begin{enumerate}
+\item El usuario selecciona de una lista el/los criterios de busqueda que desea.
+\item El usuario ingresa un valor de busqueda por cada criterio seleccionado.
+\item El sistema busca los sucursales o itinerarios acorde al campo de búsqueda.
+\item Se muestra al usuario una lista con sucursales o itinerarios.
+\end{enumerate}
+\textbf{Excepciones:}
+\begin{enumerate}
+\item[2'] El usuario puede cancelar la interacción.
+\item[4'] Lista vacía, se informa que no se encontró lo que el usuario buscaba.
+\end{enumerate}
+\subsection*{\textbf{CASO DE USO UC4:} Buscar itinerarios }
+\textbf{Actor principal:} Usuario\\
+\\
+\textbf{Personal involucrado e intereses: }\\\underline{Usuario} Quiere encntrar el/los itinerario/s que cumplan con su criterio de busqueda.\\
+\\
+\textbf{Precondiciones:} El usuario necesita una lista de itinerarios.\\
+\\
+\textbf{Postcondiciones:} El usuario obtiene una lista de itinerarios.\\
+\\
+\textbf{Escenario principal de éxito:}
+\begin{enumerate}
+\item Usuario apreta botón de búsqueda de itinerario.
+\item Usuario ingresa valor en campo de búsqueda.
+\item El sistema busca itinerarios acorde al campo de búsqueda.
+\item Se muestra al usuario una lista con itinerarios.
+\end{enumerate}
+\textbf{Excepciones:}
+\begin{enumerate}
+\item[2'a] El usuario cancela la operación.
+\item[2'b] El usuario puede apretar el botón de busqueda con criterios específicos. El sistema invoca al caso de uso \textbf{Buscar por criterios específicos (UC3)}.
+\end{enumerate}
+\subsection*{\textbf{CASO DE USO UC5:} Visualizar información de sucursal }
+\textbf{Actor principal:} Usuario y Turista\\
+\\
+\textbf{Personal involucrado e intereses: }\\\underline{Usuario y Turista:} Quiere ver información asociada a una sucursal.\\
+\\
+\textbf{Precondiciones:} El usuario ha seleccionado una sucursal, ya sea desde busqueda, itinerario o mapa temático.\\
+\\
+\textbf{Postcondiciones:} El usuario ve en pantalla la información relevante de la sucursal.\\
+\\
+\textbf{Escenario principal de éxito:}
+\begin{enumerate}
+\item El sistema obtiene la información de la sucursal.
+\item El sistema muestra la información al usuario.
+\end{enumerate}
+\textbf{Excepciones:}
+\begin{enumerate}
+\item[3'a] El turista apreta el botón de evaluar servicios, el sistema invoca al caso de uso \textbf{Evaluar Servicios (UC6)}. 
+\item[3'b] El turista apreta el botón de añadir a itinerario, el sistemainvoac al caso de uso \textbf{Añadir a itinerario (UC7)}.
+\item[3'c] El usuario apreta el botón de generar ruta, el sistema invoca al caso de uso \textbf{Generar ruta (UC8)}.
+\item[3'd] El usuario apreta el botón de evaluar servicios o el botón de añadir a itinerario. Se muestra un mensaje de error por no iniciar sesión.
+\end{enumerate}
+\subsection*{\textbf{CASO DE USO UC6:} Evaluar servicio }
+\textbf{Actor principal:} Turista\\
+\\
+\textbf{Personal involucrado e intereses: }\\\underline{Turista:} Desea evaluar servicios de una sucursal.
+\\
+\textbf{Precondiciones:} El turista se encuentra visualizando una sucursal.\\
+\\
+\textbf{Postcondiciones:} El turista ha evaluado los servicios que quería de una sucursal.\\
+\\
+\textbf{Escenario principal de éxito:}
+\begin{enumerate}
+\item El sistema muestra una lista de seriicios de la sucursa con estrellas sin nota o con nota si ya se había evaluado.
+\item El turista selecciona cuantas estrellas le asigna a cada servicio que quiera.
+\item El turista finaliza al presionar botón de evaluar.
+\end{enumerate}
+\textbf{Excepciones:}
+\begin{enumerate}
+\item[2'] El turista modifica una evaluación hecha previamente.
+\item[1-3'] Turista Cancela.
+\end{enumerate}
+
+\subsection*{\textbf{CASO DE USO UC7:} Añadir a Itinerario }
+\textbf{Actor principal:} Turista\\
+\\
+\textbf{Personal involucrado e intereses: }\\
+\underline{Turista}: Desea añadir servicios a un itinerario creado por él.
+\\\\
+\textbf{Precondiciones:} El turista se encuentra visualizando una sucursal desde una lista o su detalle.\\
+\\
+\textbf{Postcondiciones:} El turista añade servicio(s) de una sucursal a un itinerario.\\
+\\
+\textbf{Esecnario principal de éxito:}
+\begin{enumerate}
+\item El turista selecciona en orden los servicios que desea agregar.
+\item El turista apreta el botón agregar a itinerario.
+\item EL sistema muestra una lista con itinerarios del turista.
+\item El turista selecciona el itinerario al cual desea agregar servicios.
+\item Finaliza apretando OK.
+\end{enumerate}
+\textbf{Excepciones:}
+\begin{enumerate}
+\item[1-5'] Cancelar.
+\end{enumerate}
+
+
+
+\subsection*{\textbf{CASO DE USO UC8:} Generar Ruta }
+\textbf{Actor principal:} Usuario\\
+\\
+\textbf{Personal involucrado e intereses:}\\
+\underline{Usuario}: Desea ver una ruta a una sucursal.\\
+\underline{Google Maps}: Quiere recibir peticiones de ruta entre dos puntos en el mapa.
+\\\\
+\textbf{Precondiciones:} Usuario se encuentra visualizando sucursal desde una lista o el detalle y tiene activado el GPS.\\
+\\
+\textbf{Postcondiciones:} Usuario ve ruta desde su posición hasta una sucursal.\\
+\\
+\textbf{Esecnario principal de éxito:}
+\begin{enumerate}
+\item El usuario ingresa qué tipo de transporte utilizará.
+\item Se envía información a MAPS junto con posición del usuaro, posición de sucursal y el medio de transporte.
+\item MAPS entrega un mapa de la ruta.
+\item El sistema muestra la información al usuario.
+\end{enumerate}
+\textbf{Excepciones:}
+\begin{enumerate}
+\item[2'] Falla la conexión con MAPS, se muestra una alerta.
+\item[3'] No existe ruta, se entrega un mensaje de error.
+\end{enumerate}
+
+
+\subsection*{\textbf{CASO DE USO UC9:} Visualizar Itinerario }
+\textbf{Actor principal:} Usuario, Turista\\
+\\
+\textbf{Personal involucrado e intereses: }\\
+\underline{Usuario}: quiere visualizar los contenidos de un itinerario.\\
+\underline{Turista}: puede visualizar el contenido de un itinerario y compartirlo. Además puede modificar o borrar itinerarios creados por él.
+\\\\
+\textbf{Precondiciones:} El usuario está visualizando una lista de itinerarios, por ejemplo después del caso de uso "buscar itinerario".\\
+\\
+\textbf{Postcondiciones:} El sistema muestra al usuario los detalles contenidos en un itinerario.\\
+\\
+\textbf{Esecnario principal de éxito:}
+\begin{enumerate}
+\item El usuario selecciona un itinerario de la lista de itinerarios.
+\item El usuario selecciona la opción de visualización de contenido.
+\item El sistema muestra la información detallada del itinerario.
+\end{enumerate}
+\textbf{Excepciones:}
+\begin{enumerate}
+\item[2'] El usuario deselecciona el itinerario y no se visualiza el contenido.
+\item[3'a] El turista puede seleccionar la opción borrar y se salta al caso de uso "Borrar itinerario (CU10)".
+\item[3'b] El turista puede seleccionar la opción modificar y se salta al caso de uso "Modificar itinerario (CU11)".
+\item[3'c] El turista puede seleccionar la opción compartir y se salta al caso de uso "Compartir itinerario (CU12)".
+\end{enumerate}
+
+
+\subsection*{\textbf{CASO DE USO UC10: Borrar Itinerario}  }
+\textbf{Actor principal:} Turista.\\
+\\
+\textbf{Personal involucrado e intereses: }\\
+\underline{Turista}:Quiere eliminar un itinerario creado por él.
+\\\\
+\textbf{Precondiciones:} El turista ha seleccionado la opcion borrar itinerario desde la visualización de su itinerario.\\
+\\
+\textbf{Postcondiciones:} Se elimina el itinerario seleccionado de la base de datos.\\
+\\
+\textbf{Esecnario principal de éxito:}
+\begin{enumerate}
+\item El turista selecciona la opción de borrar itinerario.
+\item Se elimina el itinerario seleccionado de la base de datos.
+\end{enumerate}
+\textbf{Excepciones:}
+\begin{enumerate}
+\item[1'] El turista puede cancelar la eliminación de su itinerario.
+\end{enumerate}
+
+
+
+\subsection*{\textbf{CASO DE USO UC11: Modificar Itinerario}  }
+\textbf{Actor principal:} Turista.\\
+\\
+\textbf{Personal involucrado e intereses: }\\
+\underline{Turista}:Quiere eliminar servicios contenidos en su itinerario o cambiar el orden de éstos.
+\\\\
+\textbf{Precondiciones:} El turista ha seleccionado la opcion modificar itinerario desde la visualización de su itinerario.\\
+\\
+\textbf{Postcondiciones:} Se modifica el contenido del itinerario.\\
+\\
+\textbf{Esecnario principal de éxito:}
+\begin{enumerate}
+\item El turista selecciona la opción de modificar itinerario.
+\item El turista selecciona un servicio dentro del itinerario.
+\item El turista selecciona otro servicio dentro del itinerario y se intercambian en el orden.
+\end{enumerate}
+\textbf{Excepciones:}
+\begin{enumerate}
+\item[3'a] El turista selecciona la opción borrar servicio para borrar el servicio seleccionado del itinerario.
+\item[1-3'] El turista puede salir en cualquier momento del modo edición.
+\end{enumerate}
+
+
+
+\subsection*{\textbf{CASO DE USO UC12: Compartir Itinerario}  }
+\textbf{Actor principal:} Turista.\\
+\\
+\textbf{Personal involucrado e intereses: }\\
+\underline{Turista}:Quiere compartir un itinerario en redes sociales.
+\\\\
+\textbf{Precondiciones:} El turista está visualizando una lista de itinerarios, por ejemplo después del caso de uso "buscar itinerario" o está visualizando el contenido de un itinerario.\\
+\\
+\textbf{Postcondiciones:} El turista publica en la red social elegida el itinerario seleccionado.\\
+\\
+\textbf{Esecnario principal de éxito:}
+\begin{enumerate}
+\item El turista selecciona un itinerario de la lista de itinerarios.
+\item El turista selecciona la opción compartir itinerario y selecciona dónde compartirlo.
+\item Se abre la opción de compartir de la red social elegida.
+\item Se comparte satisfactoriamente el itinerario seleccionado.
+\end{enumerate}
+\textbf{Excepciones:}
+\begin{enumerate}
+\item[2-3'] El turista puede cancelar la acción en todo momento.
+\item[3']s Error al conectar con la red social, se cancela la acción.
+\subsection*{\textbf{CASO DE USO UC13:} Crear itinerario }
+\end{enumerate}
+\textbf{Actor principal:} Turista\\
+\\
+\textbf{Personal involucrado e intereses: }\\\underline{Turista:} Quiere crear un itinerario en la aplicación.\\
+\\
+\textbf{Precondiciones:} El turista, desde sus itinerarios, accede a la creación de itinerarios.\\
+\\
+\textbf{Postcondiciones:} El turista crea un itinerario vacío.\\
+\\
+\textbf{Escenario principal de éxito:}
+\\
+\begin{enumerate}
+\item El turista escribe el nombre del nuevo itinerario.
+\item Si el nombre no se repite con otro, se crea el nuevo itinerario.
+\end{enumerate}
+\textbf{Excepciones:}
+\begin{enumerate}
+\item[1-2'] Cancelar: En cualquier momento el turista puede cancelar la operación.
+\item[2'] El nombre del itinerario ya existe. Se emite un mensaje y se vuelve al paso 1.
+\end{enumerate}
+\end{document}
